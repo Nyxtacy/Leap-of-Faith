@@ -14,4 +14,4 @@ Feel free to explore the code in this repository, and if you find anything usefu
 
 If you have any questions, suggestions, or just want to connect, don't hesitate to reach out to me. You can find my contact information in my profile or add me on Discord: 'Nyxtacy.'.
 
-Thank. you for visiting my "Leap of Fait" repository, and I hope you find something valuable here. Happy coding!
+Thank. you for visiting my "Leap of Fait" repository, and I hope you find something valuable here. Happy coding!!
