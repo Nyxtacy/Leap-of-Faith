@@ -1,4 +1,4 @@
-//test bing bong greatest number 
+//test greatest number 
 import java.util.Scanner;
 
 
