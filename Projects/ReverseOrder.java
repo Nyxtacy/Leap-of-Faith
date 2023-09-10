@@ -6,15 +6,17 @@ public class ReverseOrder {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter your 3 digit number");
         int number = scanner.nextInt();
-
-        int reverse = number%10;
-        int reverse2 = number/10;
-        int reverse3 = reverse2%10;
-        int reverse4 = reverse2/10;
-        int reverse5 = reverse4%10;
-        String reversed =  Integer.toString(reverse)+Integer.toString(reverse3)+Integer.toString(reverse5);
-        System.out.println(number+ " in reverse is " +reversed);
+        if(number>=100 && number<=999){
+            int reverse = number%10;
+            int reverse2 = number/10;
+            int reverse3 = reverse2%10;
+            int reverse4 = reverse2/10;
+            int reverse5 = reverse4%10;
+            String reversed =  Integer.toString(reverse)+Integer.toString(reverse3)+Integer.toString(reverse5);
+            System.out.println(number+ " in reverse is " +reversed);
+        }else{
+            System.out.println("your number is invalid");
+        }
         scanner.close();
     }
-    
 }
