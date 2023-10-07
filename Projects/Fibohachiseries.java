@@ -1,4 +1,6 @@
 import java.util.Scanner;
+
+// Program to print fibonacchi series up to the nth term
 public class Fibohachiseries {
     public static void main(String[] args) {
 
@@ -13,5 +15,6 @@ public class Fibohachiseries {
             b=s;
             n=n-1;
         }
+        scanner.close();
     }
 }
